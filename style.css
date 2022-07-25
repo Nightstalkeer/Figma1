@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
+
+.headings{
+    display: flex;
+    align-items: center;
+    margin: 20px 140px;
+}
+
+#line{
+    border-left: 5px solid #fd6202;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#title{
+    font-family: 'Yeseva One', cursive;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.107));
+}
+
+#Mission {
+    color: #fd6202;
+}
