@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Yeseva+One&display=swap');
 
 .headings{
     display: flex;
     align-items: center;
     margin: 20px 140px;
+    justify-content: space-evenly;
 }
 
 #line{
-    margin-left: 10px;
+    display: flex;
+    margin-left: 0px;
 }
 
 #title{
@@ -19,11 +20,79 @@
 .vcline{
     height: 80px;
     width: 5px;
+    /*border-left: 5px solid #fdd902;*/
     background-color: #FECC01;
-    border-radius: 5px;
+    border-radius: 20px;
+    margin-top: 20px;
     margin-right: 20px;
 }
 
 #Mission {
     color: #fd6202;
+}
+
+.p1{
+    margin-left: 0px;
+    font-family: 'poppins', sans-serif;
+    width: 800px;
+    text-align: justify;
+}
+
+.exbtn{
+    padding: 10px;
+    color: #ffffff;
+    background-color: #fd6202;
+    transform: scale(1.5);
+    border-radius: 5px;
+    border: #fd6202;
+    margin-top: 10px ;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+.miss{
+    font-family: 'poppins', Serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px 140px;
+
+}
+
+#blog1{
+    border-radius: 35px;
+    background: #ecf4f5;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+#blog2{
+    border-radius: 35px;
+    background: #fdeded;
+    margin: 0 20px;
+    padding: 20px;
+}
+
+#blog3{
+    border-radius: 35px;
+    background: #fdf3d5;
+    padding: 20px;
+    margin: 0 20px;
+}
+
+.develop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 90px 70px;
+}
+
+#dev{
+    font-family: 'poppins', Serif;
+    font-weight: bold;
+    font-size: 50px;
 }
