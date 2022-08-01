@@ -14,7 +14,8 @@
 
 #title{
     font-family: 'Yeseva One', cursive;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.107));
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.307));
+    /*box-shadow: 5px 10px red;*/
 }
 
 .vcline{
@@ -27,13 +28,14 @@
     margin-right: 20px;
 }
 
+
 #Mission {
     color: #fd6202;
 }
 
 .p1{
     margin-left: 0px;
-    font-family: 'poppins', sans-serif;
+    font-family: 'poppins', sans-serif, "Bold";
     width: 800px;
     text-align: justify;
 }
@@ -48,6 +50,15 @@
     margin-top: 10px ;
     margin-left: 20px;
     margin-bottom: 5px;
+}
+
+.exbtn:hover {
+    background: #ab0202;
+    cursor: pointer;
+    font-weight: 700;
+    position: relative;
+    z-index: 10;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, .509));
 }
 
 .miss{
@@ -95,4 +106,48 @@
     font-family: 'poppins', Serif;
     font-weight: bold;
     font-size: 50px;
+}
+
+.global{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#Build{
+    font-family: 'Poppins', Serif, "Bold";
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
+.safe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#stay{
+    font-family: "Poppins", "Bold";
+    font-size: 3em;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+.conclude{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    height: 200px;
+    background-color: black;
+}
+
+#conmiss{
+    font-family: "Yeseva One", "Bold";
+    font-size: 3em;
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#hw{
+    font-family: Poppins;
+    color: white;
+    text-align: center;
 }
